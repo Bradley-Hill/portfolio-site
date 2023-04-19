@@ -5,26 +5,17 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "eslintConfig": {
-      "extends": ["wesbos"]
-    }
-=======
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
->>>>>>> 8a578dbe5f1ff3b0538da11cf119751cf29f94b5
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
-=======
   "devDependencies": {
     "eslint": "^8.38.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5"
   },
->>>>>>> 8a578dbe5f1ff3b0538da11cf119751cf29f94b5
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3"
   }
