@@ -1,14 +1,7 @@
-{
-  "extends": ["wesbos", "airbnb-base"],
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es2021": true
+module.exports = {
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
   },
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
-  "rules": {
-    "no-unused-vars": "error"
-  }
-}
+};
