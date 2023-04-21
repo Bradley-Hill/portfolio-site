@@ -1,16 +1,31 @@
-function Cat(name, breed, color) {
-  this.name = name;
-  this.breed = breed;
-  this.color = color;
-  this.greeting = function () {
-    return `Hello, said ${this.name} the ${this.breed}.`;
-  };
-}
+// function Hero(name, level) {
+//   this.name = name;
+//   this.level = level;
+// }
 
-Cat3 = new Cat('Rupert', 'Siamese', 'white');
-Cat4 = new Cat('Jenkins', 'Moggy', 'ginger');
+// function Warrior(name, level, weapon) {
+//   Hero.call(this, name, level);
+//   this.weapon = weapon;
+// }
 
-console.log(Cat3.greeting());
-console.log(Cat4.greeting());
+// function Healer(name, level, spell) {
+//   Hero.call(this, name, level);
+//   this.spell = spell;
+// }
 
-const unusedVariable = 42; 
+// Object.setPrototypeOf(Warrior.prototype, Hero.prototype);
+// Object.setPrototypeOf(Healer.prototype, Hero.prototype);
+
+// Hero.prototype.greet = function () {
+//   return `${this.name} says hello.`;
+// };
+
+// Warrior.prototype.attack = function () {
+//   return `${this.name} attacks with the ${this.weapon}.`;
+// };
+// Healer.prototype.heal = function () {
+//   return `${this.name} casts ${this.spell}`;
+// };
+
+// const hero1 = new Warrior('Skaldi', 1, 'Glaive');
+// const hero2 = new Healer('Rupert', 1, 'Cure');
